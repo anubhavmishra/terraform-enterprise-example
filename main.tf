@@ -1,7 +1,7 @@
 terraform {
   backend "atlas" {
     name         = "anubhavmishra-tfe/terraform-enterprise-example"
-    access_token = ${var.access_token}
+    access_token = "${var.access_token}"
   }
 }
 
